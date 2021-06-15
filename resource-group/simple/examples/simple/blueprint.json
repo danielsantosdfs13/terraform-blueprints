@@ -1,0 +1,5 @@
+{
+    "name": "single-az",
+    "description": "Cria um FSx Single-AZ",
+    "path": "examples/single-az"
+}

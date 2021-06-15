@@ -2,7 +2,7 @@ terraform {
   backend "azurerm" {}
 }
 
-module "tags" {
+module "vnet" {
   source                        = "github.com/danielsantosdfs13/terraform-modules/vnet"
   create_resource_group         = true
   resource_group_name           = "rg-demo-westeurope-01"
