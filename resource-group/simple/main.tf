@@ -2,7 +2,7 @@ terraform {
   backend "azurerm" {}
 }
 
-module "vnet" {
+module "resource-group" {
   source                         = "github.com/danielsantosdfs13/terraform-modules/resource-group"
   
   resource_group_name            = "teste-rg"
