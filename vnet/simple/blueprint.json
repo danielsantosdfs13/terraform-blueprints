@@ -1,0 +1,13 @@
+{
+    "name": "simple",
+    "path": "simple",
+    "approvals": {
+        "allow_dev": true
+    },
+    "terraform_version": "0.12",
+    "min_versions": {
+        "create": "1.0.296",
+        "update": "1.0.296"
+    },
+    "description": "Cria um FSx"
+}
