@@ -7,7 +7,7 @@ terraform {
 }
 
 module "tags" {
-  source                        = "github.com/danielsantosdfs13/iac-treinamento.git/terraform/modules/vnet"
+  source                        = "github.com/danielsantosdfs13/terraform-modules/vnet"
   create_resource_group         = true
   resource_group_name           = "rg-demo-westeurope-01"
   vnetwork_name                 = "vnet-demo-westeurope-001"
