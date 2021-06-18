@@ -1,7 +1,5 @@
 provider "azurerm" {
   features {}
-
-  subscription_id = var.subscription_id
 }
 variable "resource_group_name" {
   type        = string
