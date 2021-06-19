@@ -4,7 +4,7 @@
 # ----------------------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::ssh://git@gitlabssh.sharedservices.local/devops/terraform-blueprints.git//fsx/simple?ref=1.0.296"
+  source = "github.com/danielsantosdfs13/terraform-blueprints/resource-group/simple"
 }
 
 # Include all settings from the root terraform.hcl file
